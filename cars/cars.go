@@ -13,6 +13,7 @@ func Brand(brand string) (string, error) {
 		return "", errors.New("empty name")
 	}
 	message := fmt.Sprintf("Car brand is %v", brand)
+	//message := fmt.Sprintf("Car brand is") // uncomment to break the brand function to check a testing case
 	return message, nil
 }
 
